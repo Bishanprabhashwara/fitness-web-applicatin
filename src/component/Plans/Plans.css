@@ -1,0 +1,80 @@
+.plans-cointainer{
+    background-color: var(--appColor);
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+    
+    height: 850px;
+}
+#plan-header{
+    gap: 3rem;
+    margin-left: 8rem;
+    font-size: 2.5rem;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caloryCard);
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+    border-radius: 10px;
+    /* margin-left: 2rem; */
+    
+}
+.plan:hover{
+    background: var(--planCard);
+    transform: scale(1.1);
+}
+.plans>:nth-child(1):hover>svg{
+    fill: white;
+}
+.plans>:nth-child(2):hover>svg{
+    fill: white;
+}
+.plans>:nth-child(3):hover>svg{
+    fill: white;
+}
+
+.plan>svg{
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+.plan>:nth-child(){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.plan>:nth-child(3){
+    font-size: 3rem;
+    font-weight: bold;
+}
+.plan>:nth-child(5){
+    font-size: 0.8rem;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.feature>img{
+    width: 1.5rem;
+}
+
+  .plain-btn {
+    border-radius: 5px;
+  }

@@ -1,0 +1,71 @@
+nav{
+    position: fixed;
+    
+}
+.box{
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: yellow;
+    border-radius: 30px;
+    align-items: center;
+    border: 2px solid yellow;
+    margin-right: 10px;
+}
+
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: transparent;
+}
+.box:hover input{
+    transition: 0.8s;
+    width: 300px;
+}
+.box a .fas{
+    color: black;
+    font-size: 18px;
+}
+
+.main{
+    width: 100%;
+    position: fixed;
+}
+.nav-item{
+    margin-right: 15px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+#btn-loging{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 8px 16px;
+    position: relative;
+    border-radius: 8px;
+}
+#btn-loging::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: darkgreen;
+    z-index: -1;
+    transition: 0.3s;
+}
+#btn-loging:hover::before{
+    top: unset;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar-toggler-img{
+    width: 40px;
+    height: 30px;
+}

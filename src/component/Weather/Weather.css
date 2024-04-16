@@ -1,0 +1,11 @@
+.weatherdisplay{
+    
+    text-align: center;
+    
+}
+.weatherimg{
+    float: right;
+}
+.weatherinfo{
+    float: left;
+}

@@ -1,0 +1,129 @@
+.Programs{
+    background-color: var(--appColor);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    /* margin-top: 3rem; */
+}
+
+.programs-header{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 3rem;
+    /* justify-content: center; */
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-right: 4rem;
+    margin-left: 5rem;
+}
+
+.program-categories{
+    display: flex;
+    gap: 2rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding: 2rem;
+    gap: 2rem;
+    color: white;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+.category>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+.category>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.category>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now>img{
+    width: 1rem;
+}
+
+.category:hover{
+    background: var(--planCard); 
+    cursor: pointer;
+}
+
+
+
+
+.category {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding: 2rem;
+    gap: 2rem;
+    color: white;
+    justify-content: space-between;
+    /* border-radius: 5%; */
+}
+.category:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 1rem;
+}
+
+.category:active {
+    background-color: var(--gray);
+}
+
+.category:active:after {
+    background: transparent;
+}
+
+.category:hover:before {
+    opacity: 1;
+}
+
+.category:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--gray);
+    left: 0;
+    top: 0;
+    border-radius: 1rem;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

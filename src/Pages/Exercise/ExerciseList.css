@@ -1,0 +1,30 @@
+.exervedio{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-transform: capitalize;
+}
+.exerSlider{
+    width: 900px;
+    position: relative;
+    left:20%
+}
+.exerbody{
+    position: relative;
+    top: 10%;
+    
+}
+
+.exertable{
+    position: relative;
+    left: 10%;
+}
+.slider-item{
+    text-align: left;
+    margin: 5%;
+    padding: 5%;
+}
+
+.lefttd{
+    text-align: right;
+}

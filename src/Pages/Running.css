@@ -1,0 +1,41 @@
+.timer{
+position: fixed;
+top:13%;
+height: 50%;
+width: 100%;
+text-align: center;
+
+}
+
+.clock{
+    position: fixed;
+    top: 15%;
+    left: -40%;
+    width: 50%;
+    height: 10%;
+    text-align: right;
+    font-size: 110%;
+    
+}
+.map{
+    position: fixed;
+    bottom:  1%;
+    left: 20%;
+    
+}
+.weather{
+    position: fixed;
+    right:-20%;
+    top:15%;
+
+}
+
+.SpeedTracker{
+    position: fixed;
+   width: 100%;
+   text-align: center;
+   top: 15%;
+   right: 26%;
+   
+    
+}

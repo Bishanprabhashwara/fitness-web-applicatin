@@ -1,0 +1,14 @@
+.main-section{
+    width:95vw;
+    overflow: hidden;
+    position: relative;
+    top: 10%;
+}
+.stopwatch{
+    text-align: center;
+}
+
+.display
+{
+    font-size: 300%;
+}

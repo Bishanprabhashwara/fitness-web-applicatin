@@ -1,0 +1,14 @@
+.userdetailbody{
+    position: fixed;
+    top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    left:35%;
+    
+}
+.bodyfat{
+    position: fixed;
+    bottom: 3%;
+    left: 48%;
+    font-size: 200%;
+}

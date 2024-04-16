@@ -1,0 +1,126 @@
+.footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 55px 0;
+    margin-top: 4rem;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    color: #ccc;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-project-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-project-images img {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-newsletter {
+    background-color: #454444;
+    padding: 5px;
+  }
+  
+  .footer-newsletter h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-form input,
+  .footer-form button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-form input {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .footer-form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-bottom {
+    background-color: #454444;
+    /* padding: 10px; */
+    height: 40px;
+  }
+  
+  .copy-menu a {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .copy-menu a:last-child {
+    margin-right: 0;
+  }
+  
+
+  .containe-last{
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-top: 2.5rem;
+    gap: 3rem;
+  }
