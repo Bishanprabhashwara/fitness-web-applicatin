@@ -7,19 +7,22 @@ import Testimonials from '../../component/Testimonials/Testimonials'
 import Footer from '../../component/Footer/Footer'
 import Header from '../../component/Header/Header'
 import TopBar from '../../component/TopBar/TopBar'
+import Hero from '../../component/Hero/Hero'
+import Speak from '../../component/Speak'
 
 function Home() {
   return (
     <>
-       {/* <Hero/>  */}
-  
+    <div className='home-Body'>
+       <Hero/>
+      <Speak/>
       <Reasons/>
       <Programs/>
       <Plans/>
       <Testimonials/>
       
       <Footer/>
-      
+      </div>
     </>
   )
 }
